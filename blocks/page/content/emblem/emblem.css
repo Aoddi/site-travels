@@ -1,0 +1,36 @@
+@import url('./__title/emblem__title.css');
+@import url('./__list/emblem__list.css');
+@import url('./__item/emblem__item.css');
+@import url('./__city/emblem__city.css');
+@import url('./__image/emblem__image.css');
+@import url('./__wrapper/emblem__wrapper.css');
+
+.emblem {
+    font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
+    color: #ffffff;
+    width: 1184px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .emblem {
+        width: 992px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .emblem {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .emblem {
+        width: calc(100% - 32px);
+    }
+}

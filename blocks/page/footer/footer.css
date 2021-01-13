@@ -1,0 +1,41 @@
+@import url('./__copyright/footer__copyright.css');
+@import url('./__link/footer__link.css');
+@import url('./__nav-item/footer__nav-item.css');
+@import url('./__nav-list/footer__nav-list.css');
+@import url('./__nav/footer__nav.css');
+@import url('./__wrapper/footer__wrapper.css');
+
+.footer {
+    font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
+    color: #ffffff;
+    width: 1184px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .footer {
+        width: 929px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+        width: 722px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        width: 282px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

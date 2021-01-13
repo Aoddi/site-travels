@@ -1,0 +1,130 @@
+.video__link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.video__link:first-child {
+    background-image:
+        url('../../../../../image/video/Rect.png'),
+        url('../../../../../image/video/Image-1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: background-image 0.5s linear;
+}
+
+.video__link:first-child:hover {
+    background-image:
+        url('../../../../../image/video/Rect20.png'),
+        url('../../../../../image/video/Image-1.png');
+}
+
+.video__link:last-child {
+    background-image:
+        url('../../../../../image/video/Rect.png'),
+        url('../../../../../image/video/Image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: background-image 0.5s linear;
+}
+
+.video__link:last-child:hover {
+    background-image:
+        url('../../../../../image/video/Rect20.png'),
+        url('../../../../../image/video/Image.png');
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .video__link:first-child {
+        background-image:
+            url('../../../../../image/video/928/Rect.png'),
+            url('../../../../../image/video/928/Image-1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: background-image 0.5s linear;
+    }
+
+    .video__link:first-child:hover {
+        background-image:
+            url('../../../../../image/video/928/Rect20.png'),
+            url('../../../../../image/video/928/Image-1.png');
+    }
+
+    .video__link:last-child {
+        background-image:
+            url('../../../../../image/video/928/Rect.png'),
+            url('../../../../../image/video/928/Image.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: background-image 0.5s linear;
+    }
+
+    .video__link:last-child:hover {
+        background-image:
+            url('../../../../../image/video/928/Rect20.png'),
+            url('../../../../../image/video/928/Image.png');
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .video__link:first-child {
+        background-image:
+            url('../../../../../image/video/375/Rect.png'),
+            url('../../../../../image/video/375/Image-1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: background-image 0.5s linear;
+    }
+
+    .video__link:first-child:hover {
+        background-image:
+            url('../../../../../image/video/375/Rect20.png'),
+            url('../../../../../image/video/375/Image-1.png');
+    }
+
+    .video__link:last-child {
+        background-image:
+            url('../../../../../image/video/375/Rect.png'),
+            url('../../../../../image/video/375/Image.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: background-image 0.5s linear;
+    }
+
+    .video__link:last-child:hover {
+        background-image:
+            url('../../../../../image/video/375/Rect20.png'),
+            url('../../../../../image/video/375/Image.png');
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .video__link:first-child {
+        background-image:
+            url('../../../../../image/video/320/Rect.png'),
+            url('../../../../../image/video/320/Image-1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: background-image 0.5s linear;
+    }
+
+    .video__link:first-child:hover {
+        background-image:
+            url('../../../../../image/video/320/Rect20.png'),
+            url('../../../../../image/video/320/Image-1.png');
+    }
+
+    .video__link:last-child {
+        background-image:
+            url('../../../../../image/video/320/Rect.png'),
+            url('../../../../../image/video/320/Image.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: background-image 0.5s linear;
+    }
+
+    .video__link:last-child:hover {
+        background-image:
+            url('../../../../../image/video/320/Rect20.png'),
+            url('../../../../../image/video/320/Image.png');
+    }
+}

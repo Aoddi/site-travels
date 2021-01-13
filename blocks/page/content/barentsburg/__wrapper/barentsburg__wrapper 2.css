@@ -1,0 +1,29 @@
+.barentsburg__wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 160px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .barentsburg__wrapper {
+        margin-bottom: 104px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .barentsburg__wrapper {
+        margin-bottom: 104px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .barentsburg__wrapper {
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .barentsburg__wrapper {
+        margin-bottom: 64px;
+    }
+}

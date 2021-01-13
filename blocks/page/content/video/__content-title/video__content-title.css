@@ -1,0 +1,26 @@
+.video__content-title {
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .video__content-title {
+        width: 430px;
+        padding-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .video__content-title {
+        width: 320px;
+        padding-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .video__content-title {
+        width: 288px;
+    }
+}
+

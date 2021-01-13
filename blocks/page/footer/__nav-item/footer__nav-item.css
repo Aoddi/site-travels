@@ -1,0 +1,27 @@
+.footer__nav-item {
+    padding-right: 18px;
+    font-size: 24px;
+    line-height: 41px;
+}
+
+.footer__nav-item:last-child {
+    padding-right: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer__nav-item {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__nav-item {
+        padding-right: 0;
+        padding-bottom: 32px;
+    }
+
+    .footer__nav-item:last-child {
+        padding-bottom: 0;
+    }
+}

@@ -1,0 +1,23 @@
+.emblem__wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 85px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .emblem__wrapper {
+        margin-bottom: 102px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .emblem__wrapper {
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .emblem__wrapper {
+        margin-bottom: 64px;
+    }
+}

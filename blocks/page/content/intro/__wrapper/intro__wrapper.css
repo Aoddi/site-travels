@@ -1,0 +1,11 @@
+.intro__wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 92px;
+}
+
+@media screen and (max-width: 767px) {
+    .intro__wrapper {
+        margin-bottom: 64px;
+    }
+}

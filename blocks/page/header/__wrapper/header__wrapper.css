@@ -1,0 +1,19 @@
+.header__wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .header__wrapper {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .header__wrapper {
+        margin-bottom: 64px;
+    }
+}

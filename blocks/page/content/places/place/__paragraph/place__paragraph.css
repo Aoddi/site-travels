@@ -1,0 +1,42 @@
+.place__paragraph {
+    /* нужно исправить: нет необходимости задавать здесь ширину жестко; лучше задать ширину родительскому блоку и изображению слева */
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+    padding-bottom: 36px;
+}
+
+.place__paragraph:last-child {
+    padding-bottom: 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .place__paragraph {
+        padding-bottom: 24px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 27px;
+        padding-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraph {
+        width: calc(100% - 32px);
+        font-size: 16px;
+        line-height: 27px;
+        margin: 0 auto;
+        padding-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .place__paragraph {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

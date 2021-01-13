@@ -1,0 +1,13 @@
+.emblem__item {
+    width: 208px;
+    /* ✅ нужно исправить: тут нет необходимости фиксировать высоту блока; при большем количестве текста (5-10 строк) подписи не будут выровнены по верхнему краю как в макете */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.emblem__item:first-child {
+    /* нужно исправить: это свойтсво похоже уже не нужно */
+    height: 310px;
+}

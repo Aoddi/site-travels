@@ -1,0 +1,16 @@
+.additional__content-title {
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .additional__content-title {
+        padding-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .additional__content-title {
+        padding-bottom: 16px;
+    }
+}

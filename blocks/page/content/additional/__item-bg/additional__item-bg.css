@@ -1,0 +1,9 @@
+.additional__item-bg {
+    position: absolute;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .additional__item-bg {
+        width: 100%;
+    } 
+}

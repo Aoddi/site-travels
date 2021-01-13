@@ -1,0 +1,17 @@
+.lead__wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .lead__wrapper {
+        margin-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .lead__wrapper {
+        margin-bottom: 67px;
+    }
+}

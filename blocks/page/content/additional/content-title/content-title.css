@@ -1,0 +1,13 @@
+.content-title {
+    font-size: 72px;
+    line-height: 65px;
+    font-weight: 900;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .additional .content-title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

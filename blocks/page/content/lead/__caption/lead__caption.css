@@ -1,0 +1,21 @@
+.lead__caption {
+    /* ✅ нужно исправить: тут нет необходимости фиксировать ширину этого блока, по сути он должен быть такой же ширины как и родитель */
+    margin: 0 auto;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    line-height: normal;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .lead__caption {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__caption {
+        margin-left: 16px;
+    }
+}

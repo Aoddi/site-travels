@@ -1,0 +1,13 @@
+.barentsburg__text-wrapper {
+    margin: 0;
+    display: flex;
+}
+
+@media screen and (max-width: 767px) {
+    .barentsburg__text-wrapper {
+        width: calc(100% - 32px);
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
